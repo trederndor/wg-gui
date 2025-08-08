@@ -15,7 +15,8 @@ browser.
 
 you can try to install the dependencies with the install.sh
 ```bash
-
+git clone https://github.com/trederndor/wg-gui.git ~/wg_gui
+cd ~/wg_gui
 chmod +x ./install.sh
 sudo ./install.sh
 ```
