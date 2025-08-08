@@ -48,7 +48,7 @@ This key is used by Flask to secure sessions and must be kept private.
 #### WG_CONFIG_DIR
 
 Replace `USER` with the username used during the PiVPN/WireGuard
-installation.\
+installation, if not correctly detected.\
 Examples:
 
     /home/marco/configs
