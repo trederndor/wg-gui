@@ -26,3 +26,5 @@ pip3 install --break-system-packages --upgrade pip
 pip3 install Flask qrcode pillow --break-system-packages
 
 echo "✅ Installazione completata."
+echo "Tento un avvio di wg-gui."
+python wg_gui.py
