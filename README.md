@@ -13,7 +13,14 @@ browser.
 -   Flask
 -   qrcode Python library
 
-you can try to install the dependencies with the install.sh
+
+-----------------------------------------------------------------------
+## Quick Installation
+
+```bash
+curl -sSL https://raw.githubusercontent.com/trederndor/wg-gui/refs/heads/main/fastinstall.sh | bash
+```
+## Manual Installation
 ```bash
 git clone https://github.com/trederndor/wg-gui.git ~/wg_gui
 cd ~/wg_gui
@@ -21,8 +28,6 @@ chmod +x ./install.sh
 sudo ./install.sh
 python wg_gui.py
 ```
------------------------------------------------------------------------
-
 ## Configuration
 
 Before running the application, you need to update two variables at the
