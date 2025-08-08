@@ -8,7 +8,7 @@ browser.
 
 ## Requirements
 
--   Raspberry Pi with PiVPN/WireGuard installed.
+-   Raspberry Pi with PiVPN/WireGuard installed.  < -- This is a MUST have
 -   Python 3.x
 -   Flask
 -   qrcode Python library
