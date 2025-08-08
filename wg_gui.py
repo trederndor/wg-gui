@@ -9,7 +9,7 @@ from flask import Flask, render_template_string, request, redirect, url_for, sen
 
 app = Flask(__name__)
 app.secret_key = 'cambia_questa_chiave_per_la_produzione' # cambia_questa_chiave_per_la_produzione
-WG_CONFIG_DIR = "/home/ - USER -/configs"                     # sostituire " - USER -" con l'utente di installazione di pivpn/wireguard es. /home/root/configs or /home/john/configs
+WG_CONFIG_DIR = f"/home/{user}/configs"                    # sostituire "{user}" con l'utente di installazione di pivpn/wireguard es. /home/root/configs or /home/john/configs solo se errato nativamente
 WG_SERVICE_NAME = "wg-quick@wg0"                          #lasciare cosi se non si cambia il nome del processo
 
 BASE_HTML = """
