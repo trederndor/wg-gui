@@ -7,6 +7,12 @@ import qrcode
 import io
 from flask import Flask, render_template_string, request, redirect, url_for, send_file, flash, jsonify
 
+
+try:
+    user = os.getlogin()
+except OSError:
+    user = os.environ.get('USER') or os.environ.get('USERNAME') or 'defaultuser'
+
 app = Flask(__name__)
 app.secret_key = 'cambia_questa_chiave_per_la_produzione' # cambia_questa_chiave_per_la_produzione
 WG_CONFIG_DIR = f"/home/{user}/configs"                    # sostituire "{user}" con l'utente di installazione di pivpn/wireguard es. /home/root/configs or /home/john/configs solo se errato nativamente
