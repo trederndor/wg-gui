@@ -22,7 +22,7 @@ fi
 
 # Aggiorna pip e installa le dipendenze Python dal requirements.txt usando --break-system-packages
 echo "📦 Installazione dipendenze Python da requirements.txt"
-pip3 install --break-system-packages --upgrade pip
-pip3 install Flask qrcode pillow --break-system-packages
+pip3 install --upgrade pip
+pip3 install Flask qrcode pillow
 
 echo "✅ Installazione completata."
