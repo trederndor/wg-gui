@@ -29,7 +29,7 @@ Replace `USER` with the username used during the PiVPN/WireGuard
 installation.\
 Examples:
 
-    /home/root/configs
+    /home/marco/configs
     /home/john/configs
 
 ------------------------------------------------------------------------
