@@ -65,6 +65,7 @@ It is strongly recommended to:
     Nginx + HTTP Auth).
 -   Keep your `WG_CONFIG_DIR` private, as it contains your client
     private keys.
+<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/5142a703-7fff-43ba-a5e9-5fb8e78a46da" />
 
 ------------------------------------------------------------------------
 
