@@ -18,6 +18,8 @@ app.secret_key = 'cambia_questa_chiave_per_la_produzione' # cambia_questa_chiave
 WG_CONFIG_DIR = f"/home/{user}/configs"                    # sostituire "{user}" con l'utente di installazione di pivpn/wireguard es. /home/root/configs or /home/john/configs solo se errato nativamente
 WG_SERVICE_NAME = "wg-quick@wg0"                          #lasciare cosi se non si cambia il nome del processo
 
+os.makedirs(WG_CONFIG_DIR, exist_ok=True)
+
 BASE_HTML = """
 <!DOCTYPE html>
 <html lang="it">
