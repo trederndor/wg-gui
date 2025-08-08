@@ -29,8 +29,8 @@ Before running the application, you need to update two variables at the
 start of `wg_gui.py`:
 
 ``` python
-app.secret_key = 'CHANGE_THIS_SECRET_KEY_FOR_PRODUCTION'  
-WG_CONFIG_DIR = "/home/USER/configs"
+app.secret_key = 'CHANGE_THIS_SECRET_KEY_FOR_PRODUCTION'  #if u want
+WG_CONFIG_DIR = "/home/USER/configs" #only if the user is not correctly detected
 ```
 
 ### Details
