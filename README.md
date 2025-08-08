@@ -6,6 +6,21 @@ browser.
 
 ------------------------------------------------------------------------
 
+## Requirements
+
+-   Raspberry Pi with PiVPN/WireGuard installed.
+-   Python 3.x
+-   Flask
+-   qrcode Python library
+
+you can try to install the dependencies with the install.sh
+```bash
+
+chmod +x ./install.sh
+sudo ./install.sh
+```
+-----------------------------------------------------------------------
+
 ## Configuration
 
 Before running the application, you need to update two variables at the
@@ -42,14 +57,7 @@ Examples:
 -   Real-time status monitoring of clients.
 -   Restart the WireGuard service from the interface.
 
-------------------------------------------------------------------------
 
-## Requirements
-
--   Raspberry Pi with PiVPN/WireGuard installed.
--   Python 3.x
--   Flask
--   qrcode Python library
 
 ------------------------------------------------------------------------
 
