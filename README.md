@@ -72,3 +72,7 @@ It is strongly recommended to:
 ## License
 
 MIT License
+
+This project is distributed under the Creative Commons BY-NC 4.0 license for non-commercial use.
+
+➡️ Commercial use is prohibited without authorization or a paid license.
